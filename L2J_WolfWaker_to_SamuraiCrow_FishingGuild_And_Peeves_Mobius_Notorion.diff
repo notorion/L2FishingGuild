@@ -1,0 +1,860 @@
+diff --git dist/game/data/html/fisherman/31563.htm dist/game/data/html/fisherman/31563.htm
+index b56f56ef651..b544f5c71f4 100644
+--- dist/game/data/html/fisherman/31563.htm
++++ dist/game/data/html/fisherman/31563.htm
+@@ -3,12 +3,9 @@ Do you like to fish? As for me, I love it! And what a pleasure it is to come hom
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31567.htm dist/game/data/html/fisherman/31567.htm
+index 883418370cf..21044aff289 100644
+--- dist/game/data/html/fisherman/31567.htm
++++ dist/game/data/html/fisherman/31567.htm
+@@ -3,12 +3,9 @@ Welcome. I'm Bleaker. If you need something for fishing, just let me know!<br>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31568.htm dist/game/data/html/fisherman/31568.htm
+index d3891e0afa1..8d2a2afa779 100644
+--- dist/game/data/html/fisherman/31568.htm
++++ dist/game/data/html/fisherman/31568.htm
+@@ -3,12 +3,9 @@ What a pleasure it is to sit on the bank with a fishing rod and look at the fish
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31570.htm dist/game/data/html/fisherman/31570.htm
+index f1bbe114bb1..9bad5449901 100644
+--- dist/game/data/html/fisherman/31570.htm
++++ dist/game/data/html/fisherman/31570.htm
+@@ -3,12 +3,9 @@ Hello! Have you caught a big fish? I'm sure you've already understood that fishi
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31571.htm dist/game/data/html/fisherman/31571.htm
+index 5552a61f873..8a91103cf72 100644
+--- dist/game/data/html/fisherman/31571.htm
++++ dist/game/data/html/fisherman/31571.htm
+@@ -3,12 +3,9 @@ Welcome here! Do you want to learn fishing? Ah, what a joy it is to cast the fis
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31572.htm dist/game/data/html/fisherman/31572.htm
+index d684a18afdf..181adeab143 100644
+--- dist/game/data/html/fisherman/31572.htm
++++ dist/game/data/html/fisherman/31572.htm
+@@ -3,12 +3,9 @@ Greetings! My name is O'Fulle. If you are interested in fishing, you've come to
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31573.htm dist/game/data/html/fisherman/31573.htm
+index bf54fff8efa..e963d5f52f9 100644
+--- dist/game/data/html/fisherman/31573.htm
++++ dist/game/data/html/fisherman/31573.htm
+@@ -3,12 +3,9 @@ Welcome. I'm Monakan, a member of the Fishing Guild. I'm an exper fisherman. Tel
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31574.htm dist/game/data/html/fisherman/31574.htm
+index a36d4b8da3b..7d127b67873 100644
+--- dist/game/data/html/fisherman/31574.htm
++++ dist/game/data/html/fisherman/31574.htm
+@@ -3,12 +3,9 @@ Even noble ladies and gentlemen come to Oren to fish. Some people like fishing,
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31575.htm dist/game/data/html/fisherman/31575.htm
+index 728ef93477b..acd435b6087 100644
+--- dist/game/data/html/fisherman/31575.htm
++++ dist/game/data/html/fisherman/31575.htm
+@@ -3,12 +3,9 @@ Here, in the Innadril lands, you are going to find the best fishing spots! Eva h
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31576.htm dist/game/data/html/fisherman/31576.htm
+index d4adc522089..0ac2565405c 100644
+--- dist/game/data/html/fisherman/31576.htm
++++ dist/game/data/html/fisherman/31576.htm
+@@ -3,12 +3,9 @@ Welcome! You think there are only hunters here? Nope! You can meet many amazing
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31577.htm dist/game/data/html/fisherman/31577.htm
+index 13a82d916e7..43c4f98a171 100644
+--- dist/game/data/html/fisherman/31577.htm
++++ dist/game/data/html/fisherman/31577.htm
+@@ -3,12 +3,9 @@ Do you know that our lord has a passion for fishing? We are proud that he shares
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31578.htm dist/game/data/html/fisherman/31578.htm
+index de4be4729ec..7ec589e0d37 100644
+--- dist/game/data/html/fisherman/31578.htm
++++ dist/game/data/html/fisherman/31578.htm
+@@ -3,12 +3,9 @@ Welcome! Hello! Today is a perfect day for fishing, isn't it? Many of my ancesto
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31579.htm dist/game/data/html/fisherman/31579.htm
+index a1ce6a49b79..a997a696ab7 100644
+--- dist/game/data/html/fisherman/31579.htm
++++ dist/game/data/html/fisherman/31579.htm
+@@ -3,12 +3,9 @@ My name is Klaus. I'm an expert fisherman. I know every fishing spot in the area
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31696.htm dist/game/data/html/fisherman/31696.htm
+index 3a7b70208ec..881a17302be 100644
+--- dist/game/data/html/fisherman/31696.htm
++++ dist/game/data/html/fisherman/31696.htm
+@@ -3,12 +3,9 @@ Fishermen knew about this place even before Elmoreden was divided. Believe me, t
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31697.htm dist/game/data/html/fisherman/31697.htm
+index 2011c740fc1..0fdc52bbd41 100644
+--- dist/game/data/html/fisherman/31697.htm
++++ dist/game/data/html/fisherman/31697.htm
+@@ -3,12 +3,9 @@ Have you been to the Hot Springs? Water around there is always hot because of th
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/31989.htm dist/game/data/html/fisherman/31989.htm
+index 05bad79fd35..c17abf6e7db 100644
+--- dist/game/data/html/fisherman/31989.htm
++++ dist/game/data/html/fisherman/31989.htm
+@@ -3,12 +3,9 @@ Huh? You want to learn fishing? Why? I mean it beats me why anyone would want to
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/32007.htm dist/game/data/html/fisherman/32007.htm
+index 6d7f4d6fc7a..181cc499456 100644
+--- dist/game/data/html/fisherman/32007.htm
++++ dist/game/data/html/fisherman/32007.htm
+@@ -3,12 +3,9 @@ Well, since you are here... I suppose you know that the Rainbow Springs Chateau
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Learn how to fish</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 3200700">Buy fishing equipment</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2204"><font color="LEVEL">Exchange Santiago's special items</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-chaging items</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_Link fisherman/fish_appearance_exchange.htm">Get appearance-changing items</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2203">Exchange Powerful Fish for items</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Cube/Seed Bracelet</Button>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2205">Get Agathion Collect Seal Bracelet</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2206">Exchange Agathion Book of Growth</Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2150"><font color="LEVEL">Use Shinning Magic Bait Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2151"><font color="LEVEL">Use Angler's Bait Exchange Coupon</font></Button>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 2144"><font color="LEVEL">Use Heine Special Bait Coupon</font></Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass npc_%objectId%_TerritoryStatus">Ask about the local lord and tax rate</Button>
+-</body></html>
+\ No newline at end of file
++</body></html>
+diff --git dist/game/data/html/fisherman/fishing_manual003.htm dist/game/data/html/fisherman/fishing_manual003.htm
+index a8173e06dcf..a542fcf8208 100644
+--- dist/game/data/html/fisherman/fishing_manual003.htm
++++ dist/game/data/html/fisherman/fishing_manual003.htm
+@@ -1,4 +1,5 @@
+ <html><body>Fishing Manual:<br>
+-In order to fish, you need to find a fishing area. Once you	arrive at the right spot, you'll see the button on the right side of your screen that alerts you that you can fish.<br>Then check if you can actually fish. Check that you have a <font color="LEVEL">Fishing Rod</font> and <font color="LEVEL">Bait</font> equipped. You can set the Fishing Shots to be used automatically when you fish.<br>
++A fishing dock can be wherever there is a large enough concentration of fish to make it worthwhile for people to go fishing.<br>
++The places that are good for fishing are the following: <font color="LEVEL">Iris Lake</font>, <font color="LEVEL">Narsell Lake</font> where the Coliseum is, <font color="LEVEL">Giran Harbor</font>, around the <font color="LEVEL">Plains of the Lizardmen</font>, waterside in the <font color="LEVEL">Town of Gludio</font>, the <font color="LEVEL">Neutral Zone</font>, <font color="LEVEL">Heine</font>, <font color="LEVEL">Fellmere Lake</font>, the <font color="LEVEL">bridges in the Town of Giran</font>, and <font color="LEVEL">inside Aden</font>.<br>
+ <Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Back</Button>
+ </body></html>
+\ No newline at end of file
+diff --git dist/game/data/html/fisherman/fishing_manual004.htm dist/game/data/html/fisherman/fishing_manual004.htm
+index 6349fcc5fc5..4c2f564fd31 100644
+--- dist/game/data/html/fisherman/fishing_manual004.htm
++++ dist/game/data/html/fisherman/fishing_manual004.htm
+@@ -1,7 +1,5 @@
+ <html><body>Fishing Manual:<br>
+-There are three types of bait.<br>
+-These are the <font color="LEVEL">basic bait</font>, the <font color="LEVEL">R99 bait</font> which can be used by characters of Lv. 99 and above and he <font color="LEVEL">PC Cafe bait</font>, which can be purchased using PC Cafe Points.<br>
+-Of these, the Fishing Guild sells the <font color="LEVEL">basic bait</font> and the <font color="LEVEL">R99 bait</font>.<br>
+-With each type of bait, you can catch different types of fish. The conditions for purchasing and use vary among bait types as well. The Powerful Fish, which is the most expensive fish you can catch, can be caught using the <font color="LEVEL">R99 bait</font> or the <font color="LEVEL">PC Cafe bait</font>.<br>
++Previously, there were a great many baits, and it was not easy to sort them out. However, the Fishing Guild has made a breakthrough. Using the latest technology, they've invented a bait that can replace all the others.<br>
++Anglers call it <font color="LEVEL">Santiago's Bait</font>. If you are of Lv. 99 or higher, you can buy it from Fishing Guildsmen in any village.<br>
+ <Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Back</Button>
+ </body></html>
+\ No newline at end of file
+diff --git dist/game/data/html/fisherman/fishing_manual009.htm dist/game/data/html/fisherman/fishing_manual009.htm
+index cf5b80f8ca4..5083dc2d782 100644
+--- dist/game/data/html/fisherman/fishing_manual009.htm
++++ dist/game/data/html/fisherman/fishing_manual009.htm
+@@ -1,7 +1,6 @@
+ <html><body>Fishing Manual:<br>
+-Bring the fish you catch to us to exchange for various items that the Fishing Guild deals in.<br>
+-The <font color="LEVEL">Ugly Fish</font> and <font color="LEVEL">Nimble Fish</font> can be exchanged for <font color="LEVEL">Fish Stew</font>, Appearance Stones, Hair Accessories, Transformation Scrolls, and Weapon Appearance Stones.<br>
+-If you have caught a <font color="LEVEL">Powerful Fish</font>, it may be exchanged for a <font color="LEVEL">Stardust item</font> or <font color="LEVEL">Elcyum Powder</font> which is needed when exchanging for a Zodiac Agathion Treasure Chest. You may also <font color="LEVEL">sell</font> the <font color="LEVEL">fish to the shop</font>.<br>
+-If you bring us Elcyum Powder, we can let you in on a few secret techniques that have been handed down in our guild through the generation. Please think carefully about what you want to do with the fish that you catch.<br>
++Bring your catch to the Fishing Guild to get useful items in return.<br>
++<font color="LEVEL">Ugly Fish</font> and <font color="LEVEL">Nimble Fish</font> can be exchanged for <font color="LEVEL">Fish Stew</font>, a hair accessory, or a Transformation Scroll. <font color="LEVEL">Powerful Fish</font> can be exchanged for <font color="LEVEL">Elcyum Powder</font>, and you can sell <font color="LEVEL">all other fish in a shop</font>.<br>
++If you get Elcyum Powder, the Fishing Guild will teach you how to use it. It's up to you to decide what to do with the catch!<br>
+ <Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Back</Button>
+ </body></html>
+\ No newline at end of file
+diff --git dist/game/data/html/fisherman/fishing_manual010.htm dist/game/data/html/fisherman/fishing_manual010.htm
+index 21fb4dec2dd..d10de9879c7 100644
+--- dist/game/data/html/fisherman/fishing_manual010.htm
++++ dist/game/data/html/fisherman/fishing_manual010.htm
+@@ -1,38 +1,46 @@
+ <html><body>Fishing Manual:<br>
+-The time required for fishing, and the rate of success vary according to the type of bait, the type of rod, and whether or not Fishing Shot is used.<br>
++The type of Bait and Fishing Rod you use affects duration and success rate for fishing.<br>
+ <center>
+ <table border=1 cellspacing=0>
+ <tr>
+-<td align=center width=300><font color="LEVEL">Bait - Fishing Time and Standby Time</font></td>
++<td align=center width=300><font color="LEVEL">Bait: fishing time and waiting time</font></td>
+ </tr>
+ <tr>
+ <td><center>
+ <br>
+-For each bait, the time required until fish bite is preset.<br1>
+-As for the basic bait sold in the shop,<br1>Fishing Time is 105 seconds, and Standby Time is 15 seconds.<br1>This means catching a single fish takes a total of 120 seconds.<br1>
++Fishing Time depends on the Bait type.<br1>
++Bait from the shop<br1>
++Fishing: 105 sec., Waiting: 15 sec.<br1>
++It takes 120 seconds for one fishing attempt.<br1>
+ <br>
+ </center></td>
+ </tr>
+ <tr>
+-<td align=center width=300><font color="LEVEL">Fishing Rod - Fishing Time reduced</font></td>
++<td align=center width=300><font color="LEVEL">Fishing Rod reduces fishing time</font></td>
+ </tr>
+ <tr>
+ <td><center>
+ <br>
+-A better fishing rod will reduce Fishing Time.<br1>
+-The Normal Fishing Rod and Sturdy Fishing Rod<br1>will not reduce Fishing Time.<br1>When you obtain Master Fishing Rod Stage 1,<br1>your Fishing Time will begin to decrease.<br>
++Fishing Rod reduces fishing time.<br1>
++Normal Fishing Rod and Sturdy Fishing Rod<br1>
++does not affect fishing time,<br1>
++but using the Angler's Fishing Rod - Stage 1<br1>
++reduces fishing time.<br>
+ </center></td>
+ </tr>
+ <tr>
+ <br>
+-<td align=center width=300><font color="LEVEL">Fishing Shot - Fishing Probability increased</font></td>
++<td align=center width=300><font color="LEVEL">Fishing Shot increases the success rate for fishing</font></td>
+ <br>
+ </tr>
+ <tr>
+ <td><center>
+ <br>
+-Fishing Shot increases your odds of catching a fish.<br1>
++Fishing Shot affects the success rate for fishing.<br1>
+ <br>
+ </center></td>
+ </tr>
++</table>
++</center>
++<Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_Link fisherman/fishing_manual001.htm">Back</Button>
+ </body></html>
+\ No newline at end of file
+diff --git dist/game/data/multisell/2206.xml dist/game/data/multisell/2206.xml
+index f6bd9883022..44465a86345 100644
+--- dist/game/data/multisell/2206.xml
++++ dist/game/data/multisell/2206.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<list isChanceMultisell="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
++<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+ 	<npcs>
+ 		<npc>31563</npc> <!-- Perelin -->
+ 		<npc>31567</npc> <!-- Bleaker -->
+@@ -21,182 +21,98 @@
+ 	</npcs>
+ 	<item>
+ 		<ingredient id="48048" count="1" /> <!-- Agathion Virgo Charm -->
+-		<production id="48048" count="1" chance="0" /> <!-- Agathion Virgo Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48049" count="1" /> <!-- Agathion Capricorn Charm -->
+-		<production id="48049" count="1" chance="0" /> <!-- Agathion Capricorn Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48050" count="1" /> <!-- Agathion Libra Charm -->
+-		<production id="48050" count="1" chance="0" /> <!-- Agathion Libra Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48051" count="1" /> <!-- Agathion Aries Charm -->
+-		<production id="48051" count="1" chance="0" /> <!-- Agathion Aries Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48052" count="1" /> <!-- Agathion Taurus Charm -->
+-		<production id="48052" count="1" chance="0" /> <!-- Agathion Taurus Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48053" count="1" /> <!-- Agathion Leo Charm -->
+-		<production id="48053" count="1" chance="0" /> <!-- Agathion Leo Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48054" count="1" /> <!-- Agathion Gemini Charm -->
+-		<production id="48054" count="1" chance="0" /> <!-- Agathion Gemini Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48055" count="1" /> <!-- Agathion Scorpio Charm -->
+-		<production id="48055" count="1" chance="0" /> <!-- Agathion Scorpio Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48056" count="1" /> <!-- Agathion Aquarius Charm -->
+-		<production id="48056" count="1" chance="0" /> <!-- Agathion Aquarius Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48057" count="1" /> <!-- Agathion Pisces Charm -->
+-		<production id="48057" count="1" chance="0" /> <!-- Agathion Pisces Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48058" count="1" /> <!-- Agathion Sagittarius Charm -->
+-		<production id="48058" count="1" chance="0" /> <!-- Agathion Sagittarius Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="48059" count="1" /> <!-- Agathion Cancer Charm -->
+-		<production id="48059" count="1" chance="0" /> <!-- Agathion Cancer Charm -->
+-		<production id="48046" count="2" chance="65" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48046" count="3" chance="22" /> <!-- Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="1" chance="9" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
+-		<production id="48047" count="2" chance="4" /> <!-- Ancient Zodiac Agathion's Book of Growth -->
++		<production id="83560" count="1" /> <!-- Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80936" count="1" /> <!-- Greater Agathion Virgo Charm -->
+-		<production id="80936" count="1" chance="0" /> <!-- Greater Agathion Virgo Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80937" count="1" /> <!-- Greater Agathion Capricorn Charm -->
+-		<production id="80937" count="1" chance="0" /> <!-- Greater Agathion Capricorn Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80938" count="1" /> <!-- Greater Agathion Libra Charm -->
+-		<production id="80938" count="1" chance="0" /> <!-- Greater Agathion Libra Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80939" count="1" /> <!-- Greater Agathion Aries Charm -->
+-		<production id="80939" count="1" chance="0" /> <!-- Greater Agathion Aries Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80940" count="1" /> <!-- Greater Agathion Taurus Charm -->
+-		<production id="80940" count="1" chance="0" /> <!-- Greater Agathion Taurus Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80941" count="1" /> <!-- Greater Agathion Leo Charm -->
+-		<production id="80941" count="1" chance="0" /> <!-- Greater Agathion Leo Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80942" count="1" /> <!-- Greater Agathion Gemini Charm -->
+-		<production id="80942" count="1" chance="0" /> <!-- Greater Agathion Gemini Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80943" count="1" /> <!-- Greater Agathion Scorpio Charm -->
+-		<production id="80943" count="1" chance="0" /> <!-- Greater Agathion Scorpio Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80944" count="1" /> <!-- Greater Agathion Aquarius Charm -->
+-		<production id="80944" count="1" chance="0" /> <!-- Greater Agathion Aquarius Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80945" count="1" /> <!-- Greater Agathion Pisces Charm -->
+-		<production id="80945" count="1" chance="0" /> <!-- Greater Agathion Pisces Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80946" count="1" /> <!-- Greater Agathion Sagittarius Charm -->
+-		<production id="80946" count="1" chance="0" /> <!-- Greater Agathion Sagittarius Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+ 	<item>
+ 		<ingredient id="80947" count="1" /> <!-- Greater Agathion Cancer Charm -->
+-		<production id="80947" count="1" chance="0" /> <!-- Greater Agathion Cancer Charm -->
+-		<production id="80932" count="20" chance="70" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="25" chance="20" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+-		<production id="80932" count="30" chance="10" /> <!-- Greater Zodiac Agathion's Book of Growth -->
++		<production id="83561" count="1" /> <!-- High-grade Agathion's Book of Growth Box -->
+ 	</item>
+-</list>
+\ No newline at end of file
++</list>
+diff --git dist/game/data/multisell/2207.xml dist/game/data/multisell/2207.xml
+index 1226ff7a560..0bb6c53338c 100644
+--- dist/game/data/multisell/2207.xml
++++ dist/game/data/multisell/2207.xml
+@@ -20,43 +20,43 @@
+ 		<npc>32007</npc> <!-- Galba -->
+ 	</npcs>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47581" count="1" /> <!-- Transformation Scroll: Tow -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47582" count="1" /> <!-- Transformation Scroll: Lady Tow -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47583" count="1" /> <!-- Transformation Scroll: Angry Tow -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47584" count="1" /> <!-- Transformation Scroll: Sleepy Tow -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47585" count="1" /> <!-- Transformation Scroll: Pig -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47586" count="1" /> <!-- Transformation Scroll: Rabbit -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47587" count="1" /> <!-- Transformation Scroll: Queen Ant -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47588" count="1" /> <!-- Transformation Scroll: Orfen -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47589" count="1" /> <!-- Transformation Scroll: Anakim -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47550" count="15" /> <!-- Ugly Fish -->
++		<ingredient id="47551" count="7" /> <!-- Nimble Fish -->
+ 		<production id="47590" count="1" /> <!-- Transformation Scroll: Lilith -->
+ 	</item>
+-</list>
+\ No newline at end of file
++</list>
+diff --git dist/game/data/multisell/2208.xml dist/game/data/multisell/2208.xml
+index 684924721a5..63b3fc12cf2 100644
+--- dist/game/data/multisell/2208.xml
++++ dist/game/data/multisell/2208.xml
+@@ -20,75 +20,79 @@
+ 		<npc>32007</npc> <!-- Galba -->
+ 	</npcs>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
+-		<production id="5808" count="1" /> <!-- Party Mask -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
++		<production id="34631" count="1" /> <!-- Eyepatch -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
+-		<production id="6844" count="1" /> <!-- Lady's Hairpin -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
++		<production id="5808" count="1" /> <!-- Party Mask -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="6845" count="1" /> <!-- Pirate's Eyepatch -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
++		<production id="6844" count="1" /> <!-- Lady's Hairpin -->
++	</item>
++	<item>
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="6846" count="1" /> <!-- Monocle -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="7681" count="1" /> <!-- Outlaw's Eyepatch -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="7682" count="1" /> <!-- Maiden's Hairpin -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="7695" count="1" /> <!-- Forget-me-not Hairpin -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="7696" count="1" /> <!-- Daisy Hairpin -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="8184" count="1" /> <!-- Party Hat -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="8188" count="1" /> <!-- Little Angel Wings -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="5" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="500" /> <!-- Nimble Fish -->
+ 		<production id="8189" count="1" /> <!-- Fairy Antennae -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="10" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="1000" /> <!-- Nimble Fish -->
+ 		<production id="13490" count="1" /> <!-- Arrow-pierced Apple -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="10" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="1000" /> <!-- Nimble Fish -->
+ 		<production id="8185" count="1" /> <!-- Chapeau -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="10" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="1000" /> <!-- Nimble Fish -->
+ 		<production id="8186" count="1" /> <!-- Artisan's Goggles -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="150" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="15000" /> <!-- Nimble Fish -->
+ 		<production id="38587" count="1" /> <!-- Fish Hat -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="150" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="15000" /> <!-- Nimble Fish -->
+ 		<production id="38588" count="1" /> <!-- Puffer Hat -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="150" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="15000" /> <!-- Nimble Fish -->
+ 		<production id="38589" count="1" /> <!-- Shark Hat -->
+ 	</item>
+ 	<item>
+-		<ingredient id="47552" count="150" /> <!-- Powerful Fish -->
++		<ingredient id="47551" count="15000" /> <!-- Nimble Fish -->
+ 		<production id="38590" count="1" /> <!-- Turtle Hat -->
+ 	</item>
+-</list>
+\ No newline at end of file
++</list>
+diff --git dist/game/data/spawns/Innadril/Heine.xml dist/game/data/spawns/Innadril/Heine.xml
+index b2ffdc7a51f..9880ef8fefa 100644
+--- dist/game/data/spawns/Innadril/Heine.xml
++++ dist/game/data/spawns/Innadril/Heine.xml
+@@ -74,7 +74,7 @@
+ 			<npc id="35319" x="107372" y="217848" z="-3672" heading="13120" respawnTime="60sec" /> <!-- Manor Manager - Innadril -->
+ 			<npc id="36706" x="115020" y="220453" z="-3728" heading="48207" respawnTime="60sec" /> <!-- Mermoden -->
+ 			<npc id="33946" x="111126" y="219190" z="-3543" heading="59402" respawnTime="60sec" /> <!-- Adventure Guildsman -->
+-			<npc id="34156" x="111286" y="219274" z="-3550" heading="49151" respawnTime="60sec" /> <!-- Peeves - Fisher -->
++			<!-- <npc id="34156" x="111286" y="219274" z="-3550" heading="49151" respawnTime="60sec" /> --> <!-- Peeves - Fisher -->
+ 			<npc id="32347" x="111545" y="220238" z="-3672" heading="64496" respawnTime="60sec" /> <!-- Shadai - Legendary Blacksmith -->
+ 			<npc id="30897" x="111481" y="220311" z="-3678" heading="64496" respawnTime="60sec" /> <!-- Roman - Head Blacksmith -->
+ 			<npc id="34138" x="111231" y="220242" z="-3672" heading="28114" respawnTime="60sec" /> <!-- Santiago - Fishing Guild Leader -->
